@@ -43,34 +43,51 @@ const BienvenidaCurso = () => {
   );
 };
 
-// Estilos básicos en línea para que se vea bien desde el inicio
+// Estilos modernos con diseño premium
 const estilos = {
   contenedor: {
-    padding: '20px',
-    fontFamily: 'sans-serif',
-    backgroundColor: '#f4f4f9',
-    borderRadius: '10px',
-    textAlign: 'center'
+    padding: '40px',
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+    backgroundColor: '#ffffff',
+    borderRadius: '20px',
+    textAlign: 'center',
+    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.3)',
+    maxWidth: '600px',
+    margin: '0 auto'
   },
   titulo: {
-    color: '#61dafb'
+    color: '#667eea',
+    fontSize: '2.5rem',
+    marginBottom: '20px',
+    fontWeight: '700'
+  },
+  texto: {
+    fontSize: '1.1rem',
+    color: '#333',
+    lineHeight: '1.6',
+    marginBottom: '30px'
   },
   tarjeta: {
-    backgroundColor: '#fff',
-    border: '1px solid #ddd',
-    padding: '10px',
+    backgroundColor: '#f8f9fa',
+    border: '2px solid #667eea',
+    padding: '20px',
     margin: '20px auto',
-    maxWidth: '300px',
-    textAlign: 'left'
+    maxWidth: '400px',
+    textAlign: 'left',
+    borderRadius: '15px',
+    boxShadow: '0 4px 12px rgba(102, 126, 234, 0.1)'
   },
   boton: {
-    padding: '10px 20px',
-    fontSize: '16px',
-    backgroundColor: '#0070f3',
+    padding: '15px 30px',
+    fontSize: '18px',
+    backgroundColor: '#667eea',
     color: 'white',
     border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer'
+    borderRadius: '10px',
+    cursor: 'pointer',
+    fontWeight: '600',
+    transition: 'all 0.3s ease',
+    boxShadow: '0 4px 15px rgba(102, 126, 234, 0.4)'
   }
 };
 
