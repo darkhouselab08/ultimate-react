@@ -1,10 +1,10 @@
 import React from 'react'
-import BienvenidaCurso from './components/PrimerComponente'
 
 function App() {
   return (
-    <div className="App">
-      <BienvenidaCurso />
+    <div>
+      <h1>¡Hola Mundo, React!</h1>
+      <p>Empezamos el curso desde cero.</p>
     </div>
   )
 }
